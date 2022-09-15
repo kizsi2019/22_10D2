@@ -1,1 +1,4 @@
-sssd
+Egyesült==U==United
+Szovjet==S==Soviet
+Szocialista==S==Socialist
+Köztársaság==R==Republica
