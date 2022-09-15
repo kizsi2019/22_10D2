@@ -6,5 +6,8 @@ guess = int(input("give numba"))
 
 if guess == numba:
     print("correct")
+elif guess > numba:
+    print("wronge, numba smaller")
 else:
-    print("wrong")
+    print("wronge, numbar bigger")
+print("the numba was", numba)
