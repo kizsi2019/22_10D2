@@ -7,3 +7,12 @@ while folytatja:
     else:
         folytatja = False
 print("Eltaláltad a jelszót!")
+
+
+
+
+hanyszor = int(input("Hányszor írjam ki?"))
+szam = 1
+while szam <= hanyszor:
+    print("szöveg")
+    szam += 1
