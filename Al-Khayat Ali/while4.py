@@ -1,7 +1,7 @@
 text = input("adj egy szoveget")
 repeat = int(input("hanyszor?"))
 
-ammount = 0
-while repeat != ammount:
+amount = 0
+while repeat != amount:
     print(text)
-    ammount += 1
+    amount += 1
