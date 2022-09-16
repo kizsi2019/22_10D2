@@ -6,4 +6,5 @@ while folytatja:
         valasz = input("Add meg a jelszót")
     else:
         folytatja = False
+
 print("Eltaláltad a jelszót")
