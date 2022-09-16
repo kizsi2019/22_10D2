@@ -13,7 +13,7 @@ randomlist.append(n2)
 randomlist.append(n3)
 randomlist.append(n4)
 randomlist.append(n5)
-print(randomlist)
+
 
 szam = int(input("Adj meg egy számot!"))
 szam2 = int(input("Adj meg egy második számot!"))
@@ -55,7 +55,9 @@ if correct == 5:
     print("gratulálok, te vagy a nyertes")
 
 elif correct < 5:
-    print("sajnálom, vesztettél")
+    print("ennyit találtál el", correct)
+
+print("ezek voltak a nyertes számok", randomlist)
 
 
 
