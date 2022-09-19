@@ -1,0 +1,1 @@
+print('szöveg', end='\t')
