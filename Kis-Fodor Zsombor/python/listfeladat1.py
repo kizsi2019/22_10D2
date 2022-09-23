@@ -1,6 +1,7 @@
 enter = False
 namelist = []
 sex = 3
+nameask = None
 
 while nameask != True:
     nameask = input('gib names')
