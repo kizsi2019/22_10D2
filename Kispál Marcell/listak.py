@@ -10,7 +10,7 @@ gyumolcsok = []
 
 gyumolcs  = None
 while gyumolcs !='':
-    if gyumolcsok != ''_
+    if gyumolcsok != '':
         gyumolcs = input('adj meg egy gyümölcsöt! ')
         gyumolcsok.append(gyumolcs)
 
