@@ -16,4 +16,4 @@ while sor <= 7:
         oszlop = oszlop + 1
     print('')
     darab_karakter = darab_karakter + 1
-    sor = sor + 1     
+    sor = sor + 1
