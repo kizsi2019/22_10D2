@@ -11,5 +11,4 @@ with open('sex/operátorok.txt', 'a', encoding='utf-8') as avefile:
     print(sex3, end='\n', file=avefile)
     print(sex4, end='\n', file=avefile)
     print(sex5, end='\n', file=avefile)
-
-avefile.close()
+    print('', end='\n', file=avefile)
