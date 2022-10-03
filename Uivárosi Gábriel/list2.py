@@ -1,8 +1,12 @@
-N = []
-n = None
-while  n != '':
-   n = input("Adj meg egy keresztnevet")
-   if n != '':
+#Hmmmmmmmm
 
-    N.append(n)
-print(N)
+hnapS = ['ja', 'Feb', 'má', 'áp', 'mitomén' ]
+'''
+for hon in hnapS:
+    hon = hon.upper()
+    print(hon)
+print(hnapS)
+'''
+for index in range(len(hnapS)):
+    hnapS[index] = hnapS[index].upper()
+print(hnapS)
