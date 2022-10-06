@@ -1,2 +1,4 @@
-a térfogat: 100.53
-a felszín: 50.27
+a gömb sugara: 18
+a térfogat: 24429.02
+a felszín: 4071.5
+
