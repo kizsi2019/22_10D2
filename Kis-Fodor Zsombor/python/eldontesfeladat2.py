@@ -12,7 +12,7 @@ while guessedwell == 0:
         elif guessedletter == '':
             guessedwell = 1
         else:
-        wrongguesses += 1
+            wrongguesses += 1
 
 print('you got', wrongguesses, "wrong guesses")
 print(word)
