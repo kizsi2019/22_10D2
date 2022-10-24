@@ -1,4 +1,4 @@
-szo = 'baszás'
+szo = 'kutya'
 szo2 = input("Adj meg egy betűt")
 
 index = 0
@@ -13,6 +13,6 @@ while index < len(szo):
 if talalat:
     print("Ilyen betű szerepel ebben a szóban:")
 else:
-    print("Ilyen betű nincs a szóban:")
+    print("Ilyen betű nincs ebben a szóban:")
 
 print(szo)
