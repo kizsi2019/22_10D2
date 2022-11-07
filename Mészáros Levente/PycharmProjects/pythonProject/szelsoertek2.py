@@ -1,0 +1,1 @@
+szavak = ['baszás', 'sex', 'hurrá']
