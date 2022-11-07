@@ -30,10 +30,11 @@ for i in range(5):
 print(liszt)
 print(o)
 '''
+
 liszt = []
 o = 0
 b = 1
-a =int(input("Adj meg egy számot -5 és 5 között"))
+a = 0
 while -5 < a < 5:
     a =int(input("Adj meg egy számot -5 és 5 között"))
     o = o + a
