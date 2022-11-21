@@ -1,12 +1,15 @@
 import random
 
-x = ['A', 'B', 'C']
-y = []
+coord = ["A1", "A2", "A3", "B1", "B2", "B3", "C1", "C2", "C3"]
+locat = random.choice(coord)
+hit = True
+index = 0
+tip = input("Where could be the ship? (A-C, 1-3) ")
+while index < len(coord) and not hit:
+    if tip == locat:
+        hit = True
+    else:
+        tip = input("Where could be the ship? (A-C, 1-3)")
+    index = + 1
 
-oszlop = int(input("Hány oszlop legyen?"))
-
-ship = random.choice(oszlop)
-number = random.randint(1, 3)
-number2 = str(number)
-xyz = ship + number2
-
+print(f"Correct! Amount of tries: {index}")
