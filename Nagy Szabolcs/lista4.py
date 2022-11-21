@@ -1,10 +1,5 @@
-import random
-
-számok = []
-
-for i in range(10):
-    szám = random.randint(0, 50)
-    if szám % 4 == 0:
-        számok.append(szám)
-
-print(számok)
+szam = 10
+while szam >= 1:
+    if szam % 2 == 0:
+        print(szam)
+    szam -= 1
