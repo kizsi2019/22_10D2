@@ -6,5 +6,5 @@ while nev != '' and szam <= 3:
     if nev != '' and nev[0] == 'a':
         nevek.append(nev)
     szam = szam + 1
-print("Csak A és a betűvel kezdődő nevet tárolok!")
+print("Csak a és nagy a betűvel kezdődő nevet tárolok!")
 print(nevek)
