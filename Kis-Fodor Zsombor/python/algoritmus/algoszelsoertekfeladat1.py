@@ -1,14 +1,21 @@
 numbalist = []
 
-lowestnumba = None
-highestnumba = None
-
 numba = ''
 
-while numba != 'X' or numba != 'x':
+while numba != 'X':
     numba = input("give numba")
-    if numba != 'X' or numba != 'x':
-        int(numba)
+    if numba != 'X':
         numbalist.append(numba)
 
+lowestnumba = numbalist[0]
+highestnumba = numbalist[0]
+
+for numbas in numbalist:
+    if numbas > highestnumba:
+        highestnumba = numbas
+    if numbas < lowestnumba:
+        lowestnumba = numbas
+
 print(numbalist)
+print(highestnumba)
+print(lowestnumba)
