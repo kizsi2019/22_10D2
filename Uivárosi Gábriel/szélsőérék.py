@@ -1,15 +1,15 @@
 Y = "Y"
 Liszt = []
 
-Leghoszabb = 0
-Legrövidebb = 9999
+
 
 while Y != "":
   Y =  input("Agy meg egy szót")
   Liszt.append(Y)
 szav = Liszt[0]
 szak = Liszt[0]
-
+Leghoszabb = len(Liszt[0])
+Legrövidebb = len(Liszt[0])
 for szo in Liszt:
 
       if len(szo) > Leghoszabb:
