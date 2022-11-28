@@ -20,6 +20,7 @@ tipp = None
 while tipp != xyz:
     tipp = input('Add meg a sor és oszlop amire tippelsz!')
     if tipp != xyz:
+        print('Nem találtad el, próbáld újra!')
         talalat += 1
     if tipp == xyz:
         print('Eltaláltad a célt!')
