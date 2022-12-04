@@ -9,12 +9,7 @@ def word():
             word3 = input("Write a word!")
             words.append(word3)
     print(words)
-
-    for letter in words:
-        lng = []
-        leng = len(letter)
-        lng.extend([leng])
-        print(lng)
+    print(min(words))
 
 
 word()
