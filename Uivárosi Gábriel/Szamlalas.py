@@ -32,7 +32,8 @@ for szo in szavak:
     if szo[0] == "e" or szo[0] == "E":
         Darab = Darab + 1
         EE.append(szo)
-print(Darab, EE)
+print("Enyi 'E' vagy 'e' betűs szó van:", Darab, EE)
+
 
 
 
