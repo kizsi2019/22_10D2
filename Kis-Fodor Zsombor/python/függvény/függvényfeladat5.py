@@ -1,15 +1,20 @@
-def legkisebb(list, sus = list[0]):
+def legkisebb():
+    list = []
+    number_given = 0
+    while number_given >= 0:
+        number_given = int(input('ass'))
+        if number_given > 0:
+            list.append(number_given)
+
+    min = list[0]
+    max = list[0]
+
     for numbers in list:
-        if numbers < sus:
-            list[numbers] = sus
+        if numbers < min:
+            min = numbers
+        if numbers > max:
+            max = numbers
+    return min
 
-    return sus
 
-list = []
-number_given = 0
-while number_given >= 0:
-    number_given = int(input('ass'))
-    if number_given > 0:
-        list.append(number_given)
-
-print(legkisebb(list))
+print(legkisebb())

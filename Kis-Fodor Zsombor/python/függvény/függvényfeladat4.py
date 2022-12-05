@@ -1,7 +1,7 @@
 def szögek(x, *plusz, sex = ''):
 
     max = 0
-    
+
     for szam in plusz:
         max += 1
     if max == 0:
