@@ -1,14 +1,17 @@
-S = int(input("Agyon meg sor 0-2"))
-O = int(input(" Agyon meg oszlopot 0-5"))
-def mezot_rajzol():
 
-    
-    for sor in range(3):
-        for oszlop in range(6):
-            if S == sor and O == oszlop:
-                print('+ ', end='')
-            else:
-                print('O ', end='')
-        print()
+def mezot_rajzol():
+    T = True
+    while T == True:
+        S = int(input("Agyon meg sor "))
+        O = int(input(" Agyon meg oszlopot "))
+        if S < 0 or O < 0:
+            T = False
+        for sor in range(5):
+            for oszlop in range(13):
+                if S == sor and O == oszlop:
+                    print('+ ', end='')
+                else:
+                    print('O ', end='')
+            print()
 
 mezot_rajzol()
