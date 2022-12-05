@@ -7,7 +7,8 @@ def sajt():
     LegR = len(LiSZT[0])
     aszo = LiSZT[0]
     for szak in LiSZT:
-      if len(szak) < LegR:
+      if len(szak) <\
+              LegR:
           LegR = len(szak)
           aszo = szak
     print(aszo, LegR)
