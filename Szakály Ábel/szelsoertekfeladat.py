@@ -1,8 +1,8 @@
 list = []
-szo = input("Adj meg egy szót!")
-while szo !="":
+szo = input('Adj meg szavakat!')
+while szo != "":
     list.append(szo)
-    szo = input("Adj meg egy szót!")
+    szo = input('Adj meg szavakat!')
 min = list[0]
 max = list[0]
 for elem in list:
@@ -11,5 +11,5 @@ for elem in list:
     if len(elem) > len(max):
         max = elem
 print(list)
-print("A legkisebb: ", min)
-print("A legnagyobb: ", max)
+print('A legkisebb szó a listában: ', min)
+print('A legnagyobb szó a listában: ', max)
