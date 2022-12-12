@@ -1,4 +1,4 @@
-def mezo(x,y):
+def Picaso(x,y):
 
     for i in range(3):
         for sor in range(6):
@@ -12,4 +12,4 @@ x = int(input('x'))
 y = int(input('y'))
 y -= 1
 x -= 1
-mezo(x,y)
+Picaso(x,y)
