@@ -9,4 +9,4 @@ for szam in lista:
         max = szam
 
 print('A legkisebb szám a listában: ', min)
-print
+print('A legnagyobb szám a listában: ', max)
