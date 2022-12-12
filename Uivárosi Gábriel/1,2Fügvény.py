@@ -5,14 +5,15 @@ def oszegzo(x, y):
 
 print(oszegzo(9231239999, -1213123143))
 '''
-list = [1, 6, 5]
 def paros_E(x, *args):
     T = False
-    for szam in list:
+    if x % 2 == 0:
+        T = True
+    for szam in args:
         if szam % 2 == 0:
             T = True
     if T:
         print("PÁÁÁROS")
-paros_E(list)
+paros_E(1, 6, 5)
 
 
