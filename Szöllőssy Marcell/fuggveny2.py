@@ -1,8 +1,12 @@
-def paros_e(x, *szamok):
-    for szam in szamok:
-        if szam % 2 == 0:
-            return True
-        elif szam % 3 == 0:
-            return False
+def paros_e(x,y, szam = None):
+    if x % 2 == 0 or y % 2 == 0:
+        szam = True
+    else:
+        szam = False
 
-print(paros_e(2,1,3,3))
+    return szam
+
+x = int(input('x'))
+y = int(input('y'))
+
+print(paros_e(y,x))

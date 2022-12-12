@@ -1,7 +1,4 @@
-def osszegzo(x, *args):
-   osszesen = 1
-   for szam in args:
-       osszesen = osszesen + szam
-   return osszesen
+def osszegzes(x,y):
+    return x+y
 
-print(osszegzo(1,5,5))
+print(osszegzes(1,1))
