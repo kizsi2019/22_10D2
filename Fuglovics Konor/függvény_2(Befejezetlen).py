@@ -1,0 +1,5 @@
+def paros(x, *args):
+    even = x
+    ?????????
+
+print(paros(10, 23, 31, 9, 57, 3))
