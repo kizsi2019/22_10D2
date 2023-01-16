@@ -6,3 +6,4 @@ min = szavak[0]
 for szo in szavak:
     if len(szo) < len(min):
         min = szo
+    print("Ez volt a legrövidebb szó: ", min)
