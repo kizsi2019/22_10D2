@@ -7,5 +7,6 @@ for i in range(5):
     veletlen_szam = random.randint(1,10)
     osszeg = osszeg + veletlen_szam
     veletlen_lista.append(veletlen_szam)
-print('a lista osszege', osszeg)
+print(''
+      '  a lista osszege', osszeg)
 print(veletlen_lista)
