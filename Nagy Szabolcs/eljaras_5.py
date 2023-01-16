@@ -1,15 +1,12 @@
 def mezot_rajzol(x,y):
 
-    for i in range(3):
-        for sor in range(6):
-            if sor==x and i==y:
+    for sor in range(x):
+        for oszlop in range(y):
+            if sor==0 and oszlop==4:
                 print('+ ', end='')
             else:
                 print('o ', end='')
         print()
 
-x = int(input('x'))
-y = int(input('y'))
-y -= 1
-x -= 1
-mezot_rajzol(x,y)
+
+mezot_rajzol(3,6)
