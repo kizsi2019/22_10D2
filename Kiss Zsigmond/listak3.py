@@ -1,4 +1,4 @@
-nevek = []
+ nevek = []
 nev = None
 while nev != '':
     nev = input('Adj meg egy kis a nagy A betuvel kezdodo nevet! ')
