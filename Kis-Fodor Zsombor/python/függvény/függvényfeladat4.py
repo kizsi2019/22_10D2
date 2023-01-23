@@ -5,13 +5,13 @@ def szögek(x, *plusz, sex = ''):
     for szam in plusz:
         max += 1
     if max == 0:
-        sex = '0'
+        sex = 'négyzet'
     elif max == 1:
-        sex = '1'
+        sex = 'téglalap'
     elif max == 2:
-        sex = '2'
+        sex = 'háromszög'
     else:
-        sex= '3'
+        sex= 'sokszög'
 
     return sex
 
