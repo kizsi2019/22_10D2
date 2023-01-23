@@ -1,3 +1,4 @@
+''' Egyenlőtlenhez
 def kerulet():
     list = []
     be = 1
@@ -12,5 +13,12 @@ def kerulet():
         szög = szög+1
     print("Az ön", szög, "szög e kerülete:", ker)
 kerulet()
+'''
+def kerulet2(x, y):
+    p = 0
+    p = x * y
+    return p
+    
+    
 
-
+print(kerulet2(300, 4))      

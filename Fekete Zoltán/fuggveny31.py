@@ -1,4 +1,3 @@
-
 def harommal_oszthato(*args):
     oszthato = 0
     for szam in args:
