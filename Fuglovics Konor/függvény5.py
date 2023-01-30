@@ -1,7 +1,7 @@
 num = []
 n = int(input("Adj meg egy számot!"))
 
-while n >= 0:
+while n > 0:
     print("Próbáld újra!")
     num.append(n)
     n = int(input("Adj meg egy számot!"))
