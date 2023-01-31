@@ -15,4 +15,5 @@ def legkisebb(szamok):
     for szam in szamok:
         if szam < min:
             min = szam
+    return legkisebb
 print(legkisebb(szamok))
