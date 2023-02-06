@@ -37,4 +37,4 @@ while tipp != eredmeny:
 
 print('Ennyi próbálkozásból sikerült', talalat)
 
-
+input()
