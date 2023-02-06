@@ -18,6 +18,8 @@ if adat == 'életkor':
     macska['életkor'] = kerdes2
     print(macska)
 
+input()
+
 
 
 
