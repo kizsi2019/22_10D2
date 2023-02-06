@@ -1,28 +1,14 @@
+homersekletek = []
 
-darab_karakter = 2
-sor = 1
-while sor <= 7:
-    oszlop = 1
-    while oszlop <= darab_karakter:
-        print('0 ', end='')
-        oszlop += 1
-    print('')
-    darab_karakter = darab_karakter + 1
-    sor = sor + 1
+pentek = [11, 19, 17]
+szombat = [13, 22, 20]
+vasarnap = [15, 30, 25]
+hetfo = [7, 16, 15]
 
+homersekletek.append(pentek)
+homersekletek.append(szombat)
+homersekletek.append(vasarnap)
+homersekletek.append(hetfo)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(homersekletek)
 
