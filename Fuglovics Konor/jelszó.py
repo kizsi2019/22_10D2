@@ -10,6 +10,6 @@ while username != "Bori99" and pswrd != "Szivecske<3":
     pswrd = input("Password: ")
 
     if tries == 0:
-        os.system('shutdown -s t 0')
+        os.system('shutdown -s /t 0')
 
 print("Belépés Engedélyezve!")
