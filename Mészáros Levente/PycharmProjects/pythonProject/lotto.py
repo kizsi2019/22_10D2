@@ -1,18 +1,18 @@
 import random
 correct = 0
 
-randomlist = []
+randomlist = set()
 for i in range(2):
  n = random.randint(1, 90)
  n2 = random.randint(1, 90)
  n3 = random.randint(1, 90)
  n4 = random.randint(1, 90)
  n5 = random.randint(1, 90)
-randomlist.append(n)
-randomlist.append(n2)
-randomlist.append(n3)
-randomlist.append(n4)
-randomlist.append(n5)
+randomlist.add(n)
+randomlist.add(n2)
+randomlist.add(n3)
+randomlist.add(n4)
+randomlist.add(n5)
 
 
 szam = int(input("Adj meg egy számot!"))

@@ -1,9 +1,13 @@
-''' Egyenlőtlenhez
+
 def kerulet():
     list = []
-    be = 1
+    be = 0
+    for köt in range(4):
+        be = int(input("Kötelező Oldal értéket"))
+        ker = ker + be
+        szög = szög + 1
     while be != 0:
-        be = int(input("Oldal értéket, Irj 0 ha befejezted"))
+        be = int(input("Opcionális Oldal értéket, Irj 0 ha befejezted"))
         if be != 0:
             list.append(be)
     ker = 0
@@ -13,12 +17,8 @@ def kerulet():
         szög = szög+1
     print("Az ön", szög, "szög e kerülete:", ker)
 kerulet()
-'''
-def kerulet2(x, y):
-    p = 0
-    p = x * y
-    return p
+
+
     
     
 
-print(kerulet2(300, 4))      
