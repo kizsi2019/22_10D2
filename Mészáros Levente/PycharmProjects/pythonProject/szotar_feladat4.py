@@ -22,20 +22,6 @@ adatok = {
                 'házszám': random.randint(1, 50)
             },
         }
-    ],
-
-    'diak': [
-        {
-            'vezetéknév': random.choice(vezeteknevek),
-            'keresztnév': random.choice(keresztnevek),
-            'évfolyam': random.randint(9, 12),
-
-            'cím': {
-                'település': random.choice(telepulesek),
-                'utca': random.choice(utcak),
-                'házszám': random.randint(1, 50)
-            },
-        }
     ]
 
 }
@@ -46,7 +32,7 @@ for karakter in eltavolitando_karakterek:
     szoveg = szoveg.replace(karakter, "")
 
 
-    print(szoveg)
+print(szoveg)
 
 
 
