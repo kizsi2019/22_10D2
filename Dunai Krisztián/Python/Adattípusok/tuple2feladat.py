@@ -1,23 +1,25 @@
-def find_max_min_green(r, g, b):
-    max_comp = max(r, g, b)
-    min_comp = min(r, g, b)
-    if g > 0:
-        has_green = True
-    else:
-        has_green = False
-    return (has_green, max_comp, min_comp)
+r = int(input("Adja meg a vörös komponens értékét (0-255 között): "))
+g = int(input("Adja meg a zöld komponens értékét (0-255 között): "))
+b = int(input("Adja meg a kék komponens értékét (0-255 között): "))
 
-def main():
-    r = int(input("Enter the red component: "))
-    g = int(input("Enter the green component: "))
-    b = int(input("Enter the blue component: "))
-    has_green, max_comp, min_comp = find_max_min_green(r, g, b)
-    if has_green:
-        print("The color contains green component")
-    else:
-        print("The color does not contain green component")
-    print("The maximum component is:", max_comp)
-    print("The minimum component is:", min_comp)
+if g > 0:
+    print("A szín tartalmaz zöld komponenst.")
+else:
+    print("A szín nem tartalmaz zöld komponenst.")
 
-if __name__ == "__main__":
-    main()
+maximum = max(r, g, b)
+minimum = min(r, g, b)
+
+if maximum == r:
+    print("A legnagyobb értékű komponens a vörös.")
+elif maximum == g:
+    print("A legnagyobb értékű komponens a zöld.")
+else:
+    print("A legnagyobb értékű komponens a kék.")
+
+if minimum == r:
+    print("A legkisebb értékű komponens a vörös.")
+elif minimum == g:
+    print("A legkisebb értékű komponens a zöld.")
+else:
+    print("A legkisebb értékű komponens a kék.")
