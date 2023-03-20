@@ -15,6 +15,6 @@ class Student:
     def intro(self):
         print(f'Szia, a nevem {self.name}, {self.age} éves vagyok, a {self.shclass} osztályba járok')
 
-stud = Student()
-
-
+stud = Student("Konor", '10D', 17)
+stud.bage()
+stud.intro()
