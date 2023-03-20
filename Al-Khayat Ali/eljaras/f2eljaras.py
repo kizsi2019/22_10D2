@@ -1,4 +1,5 @@
-def eljaras(x):
+def eljaras(x
+            ):
     if x > 0 == 0:
         print("a szam pozitiv")
     if x == 0:
