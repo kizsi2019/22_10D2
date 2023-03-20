@@ -26,6 +26,7 @@ def tarolo():
           else:
              egy_sor.append("0")
        tarolof.append(egy_sor)
-   print(tarolof)
+   for t in tarolof:
+      print(t)
 tarolo()
 
