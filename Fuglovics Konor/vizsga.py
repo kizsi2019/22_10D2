@@ -4,4 +4,5 @@ if student != '':
     students.append(student)
 
 stud = input("Add meg a vizsgázó nevét!")
-if stud
+if stud = "":
+
