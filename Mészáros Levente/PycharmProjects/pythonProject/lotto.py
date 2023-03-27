@@ -2,7 +2,7 @@ import random
 correct = 0
 
 randomlist = set()
-for i in range(2):
+for i in range(1):
  n = random.randint(1, 90)
  n2 = random.randint(1, 90)
  n3 = random.randint(1, 90)
@@ -58,14 +58,3 @@ elif correct < 5:
     print("ennyit találtál el", correct)
 
 print("ezek voltak a nyertes számok", randomlist)
-
-
-
-
-
-
-
-
-
-
-
