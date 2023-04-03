@@ -1,5 +1,5 @@
 '''
-3. Készíts egy függvényt, amely egy adott szöveget vár bemenetként
+7. Készíts egy függvényt, amely egy adott sztringet vár bemenetként
 majd visszaadja a szövegben található szavak számát.
 '''
 
@@ -15,4 +15,8 @@ def Szavak():
 
 # manuális input
 szoveg = input('adjon meg egy szöveget')
+
+# előre megírt input
+#szoveg = ('Ez egy szöveg mely hosszú')
+
 Szavak()

@@ -1,6 +1,6 @@
 '''
-4. Készíts egy függvényt, amely egy adott számlistát vár bemenetként
-majd visszaadja a listában található számok átlagát.
+8. Készíts egy függvényt, amely egy adott számlistát vár bemenetként
+majd visszaadja a listában található számok átlagát, és azok közül azoknak az indexeit, amelyek nagyobbak, mint az átlag.
 '''
 
 import random
@@ -10,13 +10,19 @@ szam = None
 # funkció
 def Atlag():
     atlag = 0
+    nagyobb_atlagnal = []
 
     for szamok in szamlista:
         atlag += szamok
 
     atlag = atlag / len(szamlista)
 
+    for szamok in szamlista:
+        if szamok > atlag:
+            nagyobb_atlagnal.append(szamok)
+
     print('a szamok átlaga:', atlag)
+    print('és ezek a számok nagyobbak mint az átlag:', nagyobb_atlagnal)
 
 #manuális input
 while szam != '':

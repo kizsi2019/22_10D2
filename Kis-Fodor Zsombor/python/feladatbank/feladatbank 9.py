@@ -1,6 +1,6 @@
 '''
-4. Készíts egy függvényt, amely egy adott számlistát vár bemenetként
-majd visszaadja a listában található számok átlagát.
+9. Készíts egy függvényt, amely egy adott számlistát vár bemenetként
+majd visszaadja a lista elemeit megfordítva.
 '''
 
 import random
@@ -8,17 +8,12 @@ szamlista = []
 szam = None
 
 # funkció
-def Atlag():
-    atlag = 0
+def Visszafele():
 
-    for szamok in szamlista:
-        atlag += szamok
+    szamlista.reverse()
+    print('ezek a lista elemei visszafele:', szamlista)
 
-    atlag = atlag / len(szamlista)
-
-    print('a szamok átlaga:', atlag)
-
-#manuális input
+# manuális input
 while szam != '':
     szam = input('adjon meg egy számot')
     if szam != '':
@@ -34,5 +29,5 @@ szam = [0,1,3,2,5,10]
 for szam_tagok in szam:
     szamlista.append(szam_tagok)
 '''
-#funkció hívása
-Atlag()
+# funkció meghívása
+Visszafele()
