@@ -23,13 +23,16 @@ while szam != '':
     szam = input('adjon meg egy számot')
     if szam != '':
         szamlista.append(int(szam))
-
-# funkció meghívása
-Szamok()
-
-# random input
 '''
+# random input
 for i in range(5):
     szam = random.randint(0,10)
     szamlista.append(int(szam))
+
+# előre megadott infó
+szam = [0,1,3,2,5,10]
+for szam_tagok in szam:
+    szamlista.append(szam_tagok)
 '''
+# funkció meghívása
+Szamok()

@@ -1,0 +1,11 @@
+TRU-234 Opel Astra 12 1 18600
+HGT-873 Mazda Mazda3 3 0 19000
+LOT-295 Toyota Yaris 1 0 64500
+OPO-223 Seat Cordoba 9 1 73200
+PPT-111 Alfa Romeo 4 0 9600
+RET-776	Ford C-Max 5 0 23900
+ETW-231	BMW i3 2 1 97015
+SSA-772 Hyundai i30 5 1 120360
+KCT-254	Opel Corsa 12 0 95000
+GGT-434 Toyota Prius 4 1 47800
+JTZ-774 Ford Fiesta 25 0 40700

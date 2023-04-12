@@ -1,0 +1,9 @@
+Kiss Péter 17 10.A 1
+Horváth Emma 16 10.C 1
+Szabó Rolnad 17 10.A 1
+Nagy Botond 18 10.B 1
+Vámosi Kitti 17 10.B 0
+Veszprémi András 16 10.A 0
+Kiss Júlia 16 10.A 1
+Kovács Donát 16 10.B 1
+Füzi Levenete 17 10.C 1
