@@ -1,0 +1,1 @@
+rendszamok = ['ABC123', 'ABCD777', 'WN25L']
