@@ -6,11 +6,11 @@ header{
 }
 
 h1{
-    background-color: rgba(248, 248, 248, 25%);
+    background-color: rgba(248, 248, 248, 75%);
     margin-top: 80px;
     padding-left: 11rem;
     color: #416618;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: Verdana;
     font-weight: bold;
 }
 
@@ -46,6 +46,7 @@ td,th{
 
 thead>tr:first-child{    
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 thead{
