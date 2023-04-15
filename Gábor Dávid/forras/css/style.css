@@ -5,7 +5,7 @@ header{
 }
 
 h1{
-    background-color: rgba(248, 248, 248, 0.25);
+    background-color: rgba(248, 248, 248, 0.75);
     margin-top: 80px;
     padding-left: 11rem;
     color: #416618;
@@ -16,7 +16,7 @@ h1{
 h2{    
     margin-top: 10px;
     color: #416618;
-    border-left: 3px dotted;
+    border-left: 3px dotted #416618;
     font-variant: small-caps;
     margin: 5px 15px;
 }
@@ -31,6 +31,8 @@ h3{
 
 li{
     list-style-image: url(../img/lemon2.png);
+    float: left;
+    margin-left: 40px;
 }
 
 
@@ -39,7 +41,8 @@ td,th{
 }
 
 thead>tr:first-child{    
-    letter-spacing: 2px;    
+    letter-spacing: 2px;
+    text-transform: uppercase; 
 }
 
 .navbar {
@@ -49,9 +52,4 @@ thead>tr:first-child{
 p {
     text-align: justify;
     text-indent: 15px;
-}
-
-li{
-    margin-left: 40px;
-    float: left;
 }
