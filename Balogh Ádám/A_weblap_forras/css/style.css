@@ -1,0 +1,86 @@
+/* Fejléc stílusa */
+
+header {
+    background-image: url("../images/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+
+/* Menüpontok stílusa */
+
+.nav-link {
+    font-weight: bold;
+}
+
+.nav {
+    background-color: #007bff;
+}
+
+.navbar {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.25); 
+    font-family: Arial, sans-serif; 
+    font-style: italic;
+}
+
+.navbar-item {
+    font-size: 25px;
+  }
+
+
+/* Aktív menüpont stílusa */
+
+.nav-item.active .nav-link {
+    color: white;
+}
+
+
+/* Alpesi síelés címének stílusa */
+
+#alpesi h2 {
+    color: #007bff; 
+    border-left: 3px dotted #007bff; 
+    text-transform: uppercase; 
+    padding: 5px 15px;
+}
+
+
+/* Nordikus síelés címének stílusa */
+
+#nordikus h2 {
+    color: #007bff; 
+    border-left: 3px dotted #007bff; 
+    text-transform: uppercase; 
+    padding: 5px 15px;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.75);
+    font-size: 20px;
+}
+
+h1 {
+    background-color: rgb(68, 192, 226);
+}
+
+#sieles, #nordikus {
+    max-width: 80%;
+    padding: 20px 0;
+    margin: 0;
+  }
+
+#kepgaleria {
+    border-radius: 10px;
+}
+
+card-body p {
+    text-align: justify;
+    font-size: 20px;
+    margin: 10px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
