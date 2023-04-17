@@ -13,7 +13,7 @@ class Student:
         return datetime.datetime.now().year - self.age
 
     def intro(self):
-        print(f'Szia, a nevem {self.name}, {self.age} éves vagyok, a {self.shclass} osztályba járok')
+        print(f'Szia, a nevem {self.name}, {self.bage()}-ban születtem, {self.age} éves vagyok, a {self.shclass} osztályba járok')
 
 stud = Student("Konor", '10D', 17)
 stud.bage()
