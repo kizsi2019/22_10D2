@@ -6,27 +6,36 @@ header{
 }
 
 h1{
-    background-color: rgb(248, 248, 24898);
+    background-color: rgb(248, 248, 248);
     opacity:calc(75%);
     margin-top: 80px;
+    font-family:Verdana;
     padding-left: 11rem;
-    color: 416618;    
+    color: #416618;    
+    font-weight: bold;
 }
 
 h2{    
     margin-top: 10px;    
-    color: 416618;
-    
+    color: #416618;
+    border-left: 3px dotted #416618;
+    font-variant: small-caps ;
+    padding: 5px 15px;
 }
 
 h3{    
     font-weight: bold;
-    color: #894f3b;    
+    color: #894f3b;  
+    text-align: center; 
+    font-size: 1.3rem;
+    letter-spacing: 1px;
 }
 
 
 li{
     list-style-image: url(../img/lemon2.png);
+    float: left;
+    margin-left: 40px;
 }
 
 
@@ -36,8 +45,14 @@ td,th{
 
 thead>tr:first-child{    
     letter-spacing: 2px;    
+    text-transform: uppercase;
 }
 
-nav{
+.navbar{
     background-color: #fd8800;
+}
+
+p{
+    text-align: justify;
+    text-indent: 15px;
 }
