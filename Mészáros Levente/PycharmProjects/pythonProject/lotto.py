@@ -58,3 +58,4 @@ elif correct < 5:
     print("ennyit találtál el", correct)
 
 print("ezek voltak a nyertes számok", randomlist)
+

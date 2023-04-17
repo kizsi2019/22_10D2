@@ -1,4 +1,4 @@
-def pozitiv():
+def pozitiv(lista):
 
     szamok = []
 
@@ -21,5 +21,5 @@ def pozitiv():
     print('A legkisebb szám a listában: ', min)
     print('A legnagyobb szám a listában: ', max)
 
-pozitiv()
+pozitiv(lista='')
 

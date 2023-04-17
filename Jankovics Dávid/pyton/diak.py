@@ -15,5 +15,5 @@ class Diak:
             print(f"Szia, {self.nev} vagyok, a {self.osztaly} osztályba járok, {self.eletkor} éves vagyok, {self.szuletesi_ev} -ban/ben születtem")
 
 diak = Diak('Dr.Jankovics Sándor István János Dávid', '10_d', 2005 )
-print('info('self')')
+     
 
