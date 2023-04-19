@@ -1,13 +1,12 @@
 diak = None
 pontszamdiak = 0
-pontszamhatar = 48
 atment = True
 
 while diak != "":
     diak = input("Add meg a vizsgázó nevét!")
     if diak != "":
         pontszamdiak = int(input("Add meg a pontszámát! "))
-        if pontszamhatar == pontszamdiak or pontszamdiak > pontszamhatar:
+        if pontszamdiak >= 48:
             atment = True
         else:
             atment = False
