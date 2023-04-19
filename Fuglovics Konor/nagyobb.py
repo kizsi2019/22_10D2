@@ -1,15 +1,9 @@
-numbers = []
+num1 = int(input("1. szám: "))
+num2 = int(input("2. szám: "))
 
-x = int(input("Type a number!"))
-y = int(input("Type another number!"))
-
-if x != "":
-    numbers.append(x)
-
-if y != "":
-    numbers.append(y)
-
-if x < y or x > y:
-    print(f"A nagyobb érték: {max(numbers)}")
-elif x == y:
-    print("Egyenlő")
+if num1 < num2:
+    print("A 2. szám a nagyobb!")
+elif num1 > num2:
+    print("Az 1. szám nagyobb!")
+else:
+    print("Egyenlő!")
