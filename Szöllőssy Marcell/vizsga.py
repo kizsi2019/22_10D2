@@ -1,7 +1,7 @@
-name = input("Vizsgázó neve: ")
-score = int(input("Vizsgázó pontszáma: "))
+név = input("Vizsgázó neve: ")
+pontszám = int(input("Vizsgázó pontszáma: "))
 
-if score >= 48:
-    print(name + " Átment a vizshán!")
+if pontszám >= 48:
+    print(név + " Vizsgája sikeres!")
 else:
-    print(name + " Megbukott a vizsgán.")
+    print(név + " Vizsgája sikertelen.")
