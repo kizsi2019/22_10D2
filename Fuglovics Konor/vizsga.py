@@ -1,8 +1,17 @@
-students = []
-student = input("Add meg a tanuló nevét!")
-if student != '':
-    students.append(student)
+def success (reqpoint):
+    if reqpoint >= 48:
+        return True
+    else:
+        return False
 
-stud = input("Add meg a vizsgázó nevét!")
-if stud = "":
+name = None
+
+while name != "":
+    name = input("Add meg a vizsgázó nevét!")
+    point = int(input("Add meg a pontszámát!"))
+    if success(point):
+        print("Átjutott!")
+    else:
+        print("Nem jutott át!")
+
 
