@@ -1,9 +1,10 @@
-jelszo = input("Adjon meg egy jelszót")
-meg = False
-while meg == False:
-  j2 =  input("Adja meg a jelszót")
-  if j2 == jelszo:
-      meg = True
-  else:
-      print("rosz jelszó")
-print("KÖSZÖNÖM")
+
+T = False
+while T == False:
+    Felhasz = input("Felhasználónév?")
+    Jelszo = input("Jelszó?")
+    if Felhasz == "bori99" and Jelszo == "Szivecske<3" :
+        print("Belépés engedélyezve.")
+        T = True
+    else:
+        print("Belépés megtagadva.")

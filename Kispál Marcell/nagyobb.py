@@ -1,9 +1,8 @@
-egy = int(input("adj meg egy szamot"))
-ketto = int(input("adj meg egy masik szamot"))
-if egy == ketto:
-    print("egyel")
+szam1=int(input("Adj meg egy számot"))
+szam2=int(input("adj meg egy másik számot"))
+if szam1 > szam2:
+  print("{szam1} is greater than {szam2}")
+elif szam1 == szam2:
+  print("egyenlő")
 else:
-    if egy > ketto:
-        print("egy a nagyobb")
-    else:
-        print("a nagyobb",ketto)
+  print("{szam1} is greater than {szam2}")
