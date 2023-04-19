@@ -4,11 +4,19 @@ class HíresNő:
         self.nev = nev
         self.foglalkozas = foglalkozas
 
-    def sentence(self):
-        print(f'{self.nemzetiség} {self.név} egy híres {self.foglalkozás}.')
+    def start(self):
+        if self.nemzetiseg == "n":
+            return "Frau"
+        else:
+            return "Ms."
 
-name = input("Add meg a híres nő nevét: ")
-work = input("Add meg a foglalkozás nevét: ")
-region = input("Add meg a nemzetiségét: ")
+women = []
+for i in range(3):
+    name = input("Add meg a híres nő nevét: ")
+    work = input("Add meg a foglalkozás nevét: ")
+    region = input("Add meg a nemzetiségét: ")
+    woman = HíresNő()
+    women.append(woman)
 
-if region == "n":
+for woman in women:
+    print(f"{HíresNő.start} {woman.nev} egy híres {woman.foglalkozas}.")
