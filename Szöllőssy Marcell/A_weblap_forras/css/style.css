@@ -4,6 +4,7 @@ header {
     background-image: url(../images/bg1.jpg);
     background-size: 300px;
     background-position: center;
+    opacity: 0.75;
     color: #ffff;
     font-family: Arial, sans-serif;
     font-style: italic;
@@ -25,8 +26,9 @@ header {
 
 .navbar {
     color: white;
-    size-adjust: 25px;
 }
+.navbar-item{
+    font-size: 25px:
 
 
 /* Aktív menüpont stílusa */
