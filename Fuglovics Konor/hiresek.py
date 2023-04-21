@@ -10,13 +10,15 @@ class HíresNő:
         else:
             return "Ms."
 
+
 women = []
 for i in range(3):
     name = input("Add meg a híres nő nevét: ")
     work = input("Add meg a foglalkozás nevét: ")
     region = input("Add meg a nemzetiségét: ")
-    woman = HíresNő()
+    woman = HíresNő(region, name, work)
+    woman.start()
     women.append(woman)
 
 for woman in women:
-    print(f"{HíresNő.start} {woman.nev} egy híres {woman.foglalkozas}.")
+    print(f"{woman.start()} {woman.nev} egy híres {woman.foglalkozas}.")
