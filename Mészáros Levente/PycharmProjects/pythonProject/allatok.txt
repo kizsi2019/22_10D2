@@ -1,0 +1,25 @@
+class Allatkert:
+    def __init__(self, noveny, allat):
+        self.noveny = noveny
+        self.allat = allat
+
+    def novenyek(self):
+        self.noveny = 45
+        return f'Növények: {self.noveny}'
+
+    def allatok(self):
+        self.allat = 67
+        return f'Állatok: {self.allat}'
+
+    def kiiras_fajlba(self):
+
+        with open('allatkert.py', 'r', encoding='utf-8') as forrasfajl:
+            fajl = forrasfajl.read()
+
+        with open('allatok.txt', 'w', encoding='utf-8') as celfajl:
+            celfajl.write(fajl)
+
+osszesen = Allatkert('', '')
+print(osszesen.novenyek())
+print(osszesen.allatok())
+osszesen.kiiras_fajlba()
