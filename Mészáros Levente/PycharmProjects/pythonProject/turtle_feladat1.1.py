@@ -1,5 +1,4 @@
 
-
 szam = int(input('Hány oldalas szöget rajzoljak?!'))
 szin = input('Add meg a tollszínt!(angolul)')
 toll_vastagsag = int(input('Add meg a tollvastagságot!(számmal)'))
@@ -29,8 +28,6 @@ for i in range(szam):
     turtle.forward(100)
     turtle.left(szog/szam)
 turtle.end_fill()
-
-
 
 
 time.sleep(2)
