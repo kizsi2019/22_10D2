@@ -8,8 +8,6 @@ def word():
         if word2 != "":
             word3 = input("Write a word!")
             words.append(word3)
-    print(words)
     print(min(words))
-
 
 word()
