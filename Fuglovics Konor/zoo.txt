@@ -1,0 +1,2 @@
+Plants: 100
+Animals: 143
