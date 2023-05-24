@@ -56,3 +56,4 @@ while Game_Running :
     pygame.draw.rect(screen, BLUE, rect )
     clock.tick(60)
     pygame.display.update()
+pygame.quit
