@@ -1,4 +1,4 @@
-import pygame
+import pygam
 
 white = (255, 255, 255)
 red = (255, 0, 0)
