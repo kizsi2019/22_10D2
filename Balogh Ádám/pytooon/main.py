@@ -28,9 +28,12 @@ snake_speed = 10
 font_style = pygame.font.SysFont(None, 30)
 score_font = pygame.font.SysFont(None, 35)
 
-def draw_snake(snake_list):
+snake_colors = [(0, 255, 0), (255, 0, 0), (0, 0, 255)]  # Kígyó színek a szintekhez
+
+def draw_snake(snake_list, level):
+    snake_color = snake_colors[level - 1]  # Kígyó színe a szint alapján
     for x, y in snake_list:
-        pygame.draw.rect(screen, (0, 255, 0), [x, y, snake_block_size, snake_block_size])
+        pygame.draw.rect(screen, snake_color, [x, y, snake_block_size, snake_block_size])
 
 def display_message(msg, color, y_offset=0):
     message = font_style.render(msg, True, color)
@@ -60,7 +63,7 @@ def game_menu():
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 mouse_x, mouse_y = pygame.mouse.get_pos()
                 if button_x <= mouse_x <= button_x + button_width and button_y <= mouse_y <= button_y + button_height:
-                    pygame.mixer.music.play(-1)  # Hanglejátszás indítása
+                    pygame.mixer.music.play(-1)
                     game_loop()
 
 
@@ -146,7 +149,7 @@ def game_loop():
             if segment == snake_head:
                 game_over = True
 
-        draw_snake(snake_list)
+        draw_snake(snake_list, level)
 
         score_text = score_font.render("Pontszám: " + str(score), True, (255, 255, 255))
         screen.blit(score_text, (10, 10))
@@ -168,9 +171,25 @@ def game_loop():
             if score % 10 == 0:
                 level += 1
 
-        clock.tick(10)
+        clock.tick(snake_speed)
 
-    pygame.quit()
+    screen.blit(background_img, (0, 0))
+    display_message("Játék vége!", (255, 0, 0), y_offset=-50)
+    display_message("Újrakezdés - R", (255, 255, 255))
+    display_message("Kilépés - ESC", (255, 255, 255), y_offset=50)
+    pygame.display.update()
+
+    while True:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                return
+            elif event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_r:
+                    game_loop()
+                elif event.key == pygame.K_ESCAPE:
+                    pygame.quit()
+                    return
 
 
 game_menu()
