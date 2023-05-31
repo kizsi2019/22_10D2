@@ -51,9 +51,9 @@ while Game_Running :
     if Go_Rigth:
         rec_pos_x -= 10
     screen.fill(WHITE)
-
-    rect = pygame.Rect(rec_pos_x, res_pos_y, 50, 50,)
-    pygame.draw.rect(screen, BLUE, rect )
+    player_Bird = pygame.image.load('img/PNG/frame-1.png')
+    rect = pygame.Rect(rec_pos_x, res_pos_y, 10, 10,)
+    screen.blit(player_Bird, rect)
     clock.tick(60)
     pygame.display.update()
 pygame.quit
