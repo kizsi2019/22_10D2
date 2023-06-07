@@ -5,8 +5,10 @@ High_score = 0
 High_score_Test = 0
 pygame.mixer.init()
 Dead_sound = pygame.mixer.Sound("sound/Gameover.wav")
+bgmusic = pygame.mixer.music.load("sound/Music.mp3")
 Not_exited = True
 while Not_exited:
+    pygame.mixer.music.play(-1)
     coin_conter = 0
     coin_toch = True
     pygame.mixer.stop()
@@ -155,6 +157,8 @@ while Not_exited:
                 d['High_score'] = points
             High_score = d['High_score']    
             d.close()
+            pygame.mixer.music.stop()
+            pygame.mixer.stop()
             Dead_sound.play()
 
         clock.tick(60)
