@@ -1,8 +1,16 @@
 import pygame
 import random
+import shelve
+High_score = 0
+High_score_Test = 0
+pygame.mixer.init()
+Dead_sound = pygame.mixer.Sound("sound/Gameover.wav")
 Not_exited = True
 while Not_exited:
-    Game_Running = True
+    coin_conter = 0
+    coin_toch = True
+    pygame.mixer.stop()
+    Game_Running = True   
     BLUE = 0, 0 ,255
     WHITE = 255, 255, 255
     WIDTH = 1000
@@ -113,17 +121,23 @@ while Not_exited:
         screen.blit(coin_surf, coin_rec)
         screen.blit(Points_surf, Points_rec)
         screen.blit(Pontnumber_surf, Pontnumber_rec)
-
+        if coin_conter > 0:
+            coin_conter -= 1
+        if coin_conter == 0:
+            coin_toch = True    
         Enemy_rect = pygame.Rect(Enemy_x ,Enemy_y, 100 ,100)
         screen.blit(Enemy_surf[Enemy_index], Enemy_rect)
         rect = pygame.Rect(rec_pos_x, res_pos_y, 100, 100,)
         screen.blit(player_Bird[bird_index], rect)
-        if coin_rec.colliderect(rect):
+        if coin_rec.colliderect(rect) and coin_toch == True:
             bloon_position_x = random.randint(100, 900)
             bloon_position_y = random.randint(100, 600)
             points += 1
             print(points)
             coin_sound = pygame.mixer.Sound("sound/coin5.wav")
+            coin_sound.play()
+            coin_toch = False
+            coin_conter = 10
         if rec_pos_x > Enemy_x:
             Enemy_x += 2
         elif Enemy_x > rec_pos_x:
@@ -135,7 +149,13 @@ while Not_exited:
         if rect.colliderect(Enemy_rect):
             player_in_menu = True
             Game_Running = False
-
+            d = shelve.open('score.txt')
+            High_score_Test = d['High_score']
+            if points > High_score_Test:
+                d['High_score'] = points
+            High_score = d['High_score']    
+            d.close()
+            Dead_sound.play()
 
         clock.tick(60)
         pygame.display.update()
@@ -149,14 +169,20 @@ while Not_exited:
 
                 if event.key == pygame.K_SPACE:
                     player_in_menu = False
-                    print("FUcK")
+
                     Game_Running = True
         Menu_surf = Font.render("Meghaltál LOL :)", True, Font_Color)
-        Menu_rec = Points_surf.get_rect(center=(WIDTH - 550, HEIGHT - 400))
+        Menu_rec = Menu_surf.get_rect(center=(WIDTH - 500, HEIGHT - 400))
+        High_score_surf = Font.render("Legmagasabb Elért Pontszám:"  , True, Font_Color)
+        High_score_rec = High_score_surf.get_rect(center=(WIDTH - 500, HEIGHT - 500))
+        High_scoreNumber_surf = Font.render(str(High_score), True, Font_Color)
+        High_scoreNumber_rec = High_scoreNumber_surf.get_rect(center=(WIDTH - 150, HEIGHT - 500))
         Tip_surf = Font.render(" Nyomj 'Space' Gombot Az Ujrakezdéshez", True, Font_Color)
-        Tip_rec = Points_surf.get_rect(center=(WIDTH - 850, HEIGHT - 300))
+        Tip_rec = Tip_surf.get_rect(center=(WIDTH - 500, HEIGHT - 300))
+        screen.blit(High_score_surf, High_score_rec)
         screen.blit(Menu_surf, Menu_rec)
         screen.blit(Tip_surf ,Tip_rec)
+        screen.blit(High_scoreNumber_surf, High_scoreNumber_rec)
         clock.tick(60)
         pygame.display.update()
         print("MENÓ")
