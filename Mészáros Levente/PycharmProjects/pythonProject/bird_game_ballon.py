@@ -96,6 +96,8 @@ while running:
             screen.blit(balloon_surf, balloon_rect)
 
 
+
+
     pygame.display.update()
     clock.tick(60)
 
