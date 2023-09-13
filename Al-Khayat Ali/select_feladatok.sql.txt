@@ -1,0 +1,11 @@
+SELECT * FROM Categories;
+Select Categoryname FROM Categories;
+Select CategoryName, Description FROM Categories;
+Select ProductName, Unit, Price FROM Products;
+Select ProductName, Unit, Price FROM Products WHERE price <20;
+Select ProductName, Unit, Price FROM Products WHERE price Between 20 and 30;
+Select ProductName, Unit, Price FROM Products WHERE price <>10;
+Select ProductName FROM Products WHERE Productname like'%T';
+Select ProductName FROM Products WHERE Productname like'Louisiana';
+
+SELECT DISTINCT Country FROM suppliers;

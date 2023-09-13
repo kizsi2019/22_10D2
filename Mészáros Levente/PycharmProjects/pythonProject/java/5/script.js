@@ -106,7 +106,7 @@ SZIN = 'white';*/
 
 const nev = {
     kereszt: 'Pistike',
-    vezetek: 'nagy'
+    vezetek: 'nagy',
 }
 
 nev.kereszt = 'Jóska';
