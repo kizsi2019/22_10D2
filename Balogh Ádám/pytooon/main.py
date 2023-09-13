@@ -1,5 +1,6 @@
 import pygame
 import random
+from pygame import mixer
 
 pygame.init()
 
@@ -14,8 +15,10 @@ background_img = pygame.transform.scale(background_img, (screen_width, screen_he
 food_img = pygame.image.load("food.png")
 food_img = pygame.transform.scale(food_img, (20, 20))
 
+pygame.mixer.init()
+
 pygame.mixer.music.load("background_music.mp3")
-pygame.mixer.music.set_volume(0.5)  # Állítsd a hangerőt itt (0.0 - 1.0 között)
+pygame.mixer.music.set_volume(0.5)
 
 mute_icon = pygame.image.load("mute_icon.png")
 mute_icon = pygame.transform.scale(mute_icon, (20, 20))

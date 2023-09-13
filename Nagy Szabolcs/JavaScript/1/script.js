@@ -1,0 +1,1 @@
+console.log("Ameddig ez a föld kerek...");
