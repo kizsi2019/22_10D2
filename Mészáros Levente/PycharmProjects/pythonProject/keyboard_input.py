@@ -1,11 +1,15 @@
 import pygame
 
-WIDTH = 1280
-HEIGHT = 620
+pygame.init()
+
+screen_info = pygame.display.Info()
+
+WIDTH = screen_info.current_w
+HEIGHT = screen_info.current_h
 SPEED = 5
 
-pygame.init()
-screen = pygame.display.set_mode((WIDTH, HEIGHT))
+
+screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.FULLSCREEN)
 clock = pygame.time.Clock()
 
 bird_fw_1 = pygame.image.load('2.3/img/bird1.png').convert_alpha()
@@ -35,6 +39,8 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
+
+
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_SPACE:
                 score += 1
@@ -43,6 +49,8 @@ while running:
 
     score_text = score_font.render('score: ' + str(score), True, (0, 0, 0))
     score_rect = score_text.get_rect(topleft=(10, 0))
+
+
 
     keys = pygame.key.get_pressed()
     if keys[pygame.K_RIGHT] and bird_rect.right <= WIDTH:
