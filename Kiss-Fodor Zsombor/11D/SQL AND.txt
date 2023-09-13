@@ -1,0 +1,7 @@
+SELECT SupplierName FROM Suppliers WHERE Country = 'USA' OR Country = 'UK';
+SELECT SupplierName FROM Suppliers WHERE Country = 'USA' AND (City = 'Boston' OR City = 'New Orleans');
+SELECT SupplierName FROM Suppliers WHERE Country <>'Canada' AND Country <> 'Japan';
+
+SELECT ProductName, Price FROM Products ORDER BY Price;
+SELECT ProductName, Price FROM Products ORDER BY Price DESC;
+SELECT ProductName, Unit FROM Products ORDER BY ProductName AND Unit DESC;
