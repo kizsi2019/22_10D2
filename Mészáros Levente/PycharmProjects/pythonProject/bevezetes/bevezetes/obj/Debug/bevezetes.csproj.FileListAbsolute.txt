@@ -1,0 +1,8 @@
+C:\iskola\info\ikt pm20\22_10D2\Mészáros Levente\PycharmProjects\pythonProject\bevezetes\bevezetes\obj\Debug\bevezetes.csproj.AssemblyReference.cache
+C:\iskola\info\ikt pm20\22_10D2\Mészáros Levente\PycharmProjects\pythonProject\bevezetes\bevezetes\obj\Debug\bevezetes.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\ikt pm20\22_10D2\Mészáros Levente\PycharmProjects\pythonProject\bevezetes\bevezetes\obj\Debug\bevezetes.csproj.CoreCompileInputs.cache
+C:\iskola\info\ikt pm20\22_10D2\Mészáros Levente\PycharmProjects\pythonProject\bevezetes\bevezetes\bin\Debug\bevezetes.exe.config
+C:\iskola\info\ikt pm20\22_10D2\Mészáros Levente\PycharmProjects\pythonProject\bevezetes\bevezetes\bin\Debug\bevezetes.exe
+C:\iskola\info\ikt pm20\22_10D2\Mészáros Levente\PycharmProjects\pythonProject\bevezetes\bevezetes\bin\Debug\bevezetes.pdb
+C:\iskola\info\ikt pm20\22_10D2\Mészáros Levente\PycharmProjects\pythonProject\bevezetes\bevezetes\obj\Debug\bevezetes.exe
+C:\iskola\info\ikt pm20\22_10D2\Mészáros Levente\PycharmProjects\pythonProject\bevezetes\bevezetes\obj\Debug\bevezetes.pdb
