@@ -1,0 +1,13 @@
+SELECT * FROM Categories;
+
+SELECT Categoryname AND Description FROM Categories
+
+SELECT ProductName AND price AND Country='' FROM Products;
+
+SELECT * FROM Products,Price WHERE Price > 20
+
+SELECT * FROM Products,Price WHERE Price BETWEEN 20 AND 30;
+
+SELECT * FROM Products,Price WHERE Price <> 10;
+
+SELECT * FROM Customers WHERE City LIKE 't%';
