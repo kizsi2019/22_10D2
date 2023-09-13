@@ -1,0 +1,8 @@
+C:\Users\KrisztianDunai\Desktop\kizsi\22_10D2\Dunai Krisztián\C#\Bevezetés\Bevezetés\bin\Debug\Bevezetés.exe.config
+C:\Users\KrisztianDunai\Desktop\kizsi\22_10D2\Dunai Krisztián\C#\Bevezetés\Bevezetés\bin\Debug\Bevezetés.exe
+C:\Users\KrisztianDunai\Desktop\kizsi\22_10D2\Dunai Krisztián\C#\Bevezetés\Bevezetés\bin\Debug\Bevezetés.pdb
+C:\Users\KrisztianDunai\Desktop\kizsi\22_10D2\Dunai Krisztián\C#\Bevezetés\Bevezetés\obj\Debug\Bevezetés.csproj.AssemblyReference.cache
+C:\Users\KrisztianDunai\Desktop\kizsi\22_10D2\Dunai Krisztián\C#\Bevezetés\Bevezetés\obj\Debug\Bevezetés.csproj.SuggestedBindingRedirects.cache
+C:\Users\KrisztianDunai\Desktop\kizsi\22_10D2\Dunai Krisztián\C#\Bevezetés\Bevezetés\obj\Debug\Bevezetés.csproj.CoreCompileInputs.cache
+C:\Users\KrisztianDunai\Desktop\kizsi\22_10D2\Dunai Krisztián\C#\Bevezetés\Bevezetés\obj\Debug\Bevezetés.exe
+C:\Users\KrisztianDunai\Desktop\kizsi\22_10D2\Dunai Krisztián\C#\Bevezetés\Bevezetés\obj\Debug\Bevezetés.pdb
