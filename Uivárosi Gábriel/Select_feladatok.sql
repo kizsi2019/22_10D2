@@ -34,3 +34,6 @@ SELECT 	ProductName, Price  FROM Products ORder by price DESC;
 
 SELECT 	ProductName, unit  FROM Products ORder by 
 ProductName asc, Unit Desc;
+
+insert into  Categories	(CategoryName, Description);
+values ('Botka', 'VERY HORNY')
