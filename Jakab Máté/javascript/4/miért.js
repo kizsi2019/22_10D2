@@ -43,26 +43,3 @@ console.log(typeof egyenlo);
 
 var a;
 console.log(typeof a);
-
-//var, let, const
-
-var nev = 'Pistike';
-
-function teszt() {
-    var x = 10;
-    //console.log(x);
-}
-
-teszt();
-
-//ES6
-{
-    let y = 20;
-    console.log(y);
-}
-
-//var, let, const
-
-var x = 20;
-console.log(x);
- 7

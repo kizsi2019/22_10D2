@@ -18,3 +18,4 @@ var vezeteknev, felnott;
 vezeteknev = 'Anyád';
 //felnott = true;
 console.log(vezeteknev+'felnott?'+felnott);
+kor = 'harminc'
