@@ -1,0 +1,7 @@
+SELECT SupplierName, City from Suppliers WHERE Country = 'USA' AND (city = 'Boston' OR city= 'New Orlean');
+
+SELECT SupplierName, Country from Suppliers WHERE NOT Country = 'Japan' or 'Canada'
+
+SELECT SupplierName AND Price from Suppliers WHERE Price > 0
+
+SELECT SupplierName AND Price from Suppliers WHERE Price < 0
