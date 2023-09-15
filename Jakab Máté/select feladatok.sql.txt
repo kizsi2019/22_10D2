@@ -1,0 +1,27 @@
+SELECT * FROM Categories;
+
+SELECT Categoryname AND Description FROM Categories
+
+SELECT ProductName , unit, Price FROM Products;
+
+SELECT ProductName , unit, Price FROM Products WHERE PRICE <20
+
+SELECT ProductName , unit, Price FROM Products WHERE PRICE BETWEEN 20 AND 30
+
+SELECT * FROM Customers WHERE Country = 'Germany' AND City = 'Berlin';
+
+SELECT * FROM Customers WHERE City = 'Berlin' OR City = 'Stuttgart';
+
+SELECT * FROM Customers WHERE NOT Country = 'Germany';
+
+SELECT * FROM Customers WHERE Country = 'Germany' AND (City = 'Berlin' OR City = 'Stuttgart');
+
+Order
+
+SELECT * FROM Customers ORDER BY Country;
+
+SELECT * FROM Customers ORDER BY Country DESC;
+
+SELECT * FROM Customers ORDER BY Country, CustomerName;
+
+SELECT * FROM Customers ORDER BY Country ASC, CustomerName DESC;
