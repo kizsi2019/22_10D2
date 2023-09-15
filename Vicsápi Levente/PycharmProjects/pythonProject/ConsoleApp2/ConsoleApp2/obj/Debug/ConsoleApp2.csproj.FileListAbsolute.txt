@@ -1,0 +1,8 @@
+C:\iskola\info\ikt pm20\22_10D2\Vicsápi Levente\PycharmProjects\pythonProject\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\iskola\info\ikt pm20\22_10D2\Vicsápi Levente\PycharmProjects\pythonProject\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\iskola\info\ikt pm20\22_10D2\Vicsápi Levente\PycharmProjects\pythonProject\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\iskola\info\ikt pm20\22_10D2\Vicsápi Levente\PycharmProjects\pythonProject\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.AssemblyReference.cache
+C:\iskola\info\ikt pm20\22_10D2\Vicsápi Levente\PycharmProjects\pythonProject\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.SuggestedBindingRedirects.cache
+C:\iskola\info\ikt pm20\22_10D2\Vicsápi Levente\PycharmProjects\pythonProject\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\iskola\info\ikt pm20\22_10D2\Vicsápi Levente\PycharmProjects\pythonProject\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\iskola\info\ikt pm20\22_10D2\Vicsápi Levente\PycharmProjects\pythonProject\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
