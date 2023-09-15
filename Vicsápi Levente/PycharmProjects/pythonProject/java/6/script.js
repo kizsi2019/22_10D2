@@ -125,6 +125,7 @@ else{
 }
 */
 
+/*
 var keresztnev = 'Levente';
 var kor = 32;
 
@@ -134,3 +135,95 @@ vezeteknev = 'Vicsápi';
 felnott = true;
 
 console.log(vezeteknev + " felnőtt? " + felnott);
+*/
+
+/*
+felnott = false;
+
+if (felnott){
+    console.log("Béla felnőtt");
+}
+
+else{
+    console.log("Béla gyerek");
+}
+
+var Belakora = 26;
+
+if (Belakora >= 18){
+    console.log("Béla felnőtt");
+}
+
+
+Belakora >= 18 ? console.log("Béla felnőtt") : console.log("Béla gyerek");
+
+var felnottvagygyerek = Belakora >= 18 ? 'felnőtt' : 'gyerek';
+console.log(felnottvagygyerek);
+*/
+
+/*
+var film = 'Utazók';
+var mufaj;
+
+switch (film){
+    case 'Shrek' : mufaj = 'mese'
+        break;
+    case 'Terminátor' : mufaj = 'akció'
+        break;
+    case 'Utazók' : mufaj = 'sci-fi'
+        break;
+    default:
+        mufaj = 'besorolatlan'
+}
+
+console.log(mufaj);
+*/
+
+/*
+var kor = 31;
+var nev = 'Béla';
+
+switch (true){
+    case kor < 13:
+        console.log(nev + " kisfiú");
+        break;
+    case kor >= 13 && kor < 20:
+        console.log(nev + " tinédzser");
+        break;
+    case kor >= 20 && kor < 30:
+        console.log(nev + " fiatalember");
+        break;
+    default:
+        console.log(nev + " igazi férfi");
+}
+*/
+
+/*
+var kigyok = 100;
+var bekak = 78;
+var madarak = 198;
+
+var tobbhullo = kigyok + bekak > madarak;
+console.log(tobbhullo);
+
+var atlag = (kigyok + bekak + madarak) / 3
+console.log(atlag);
+
+var a, b;
+console.log(a);
+
+a = b = (10 + 1) * 2 - 2;
+
+console.log(a, b);
+*/
+
+var sutanap = true;
+var joidovan = true;
+
+if (sutanap || joidovan){
+    console.log("Jó kedvem van");
+}
+
+else{
+    console.log("Rossz kedvem van");
+}
